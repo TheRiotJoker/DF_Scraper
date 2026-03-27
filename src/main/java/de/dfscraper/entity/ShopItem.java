@@ -10,6 +10,8 @@ import lombok.ToString;
 public class ShopItem {
     private String sellerName;
     private String itemName;
+    private String itemId;
+    private SpecialItemStats specialItemStats;
     private long totalPrice;
     private long tradeZone;
     private String category;
